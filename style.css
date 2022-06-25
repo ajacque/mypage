@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: black;
+  /*  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?t=st=1655954250~exp=1655954850~hmac=bdcb6ddd64017ec8a5d6d5798813b57b1f93e3f8ef8747914e45916d2e0cf94f&w=826'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/code.jpg');
+  background-position: center;
+}
+
+.navbar {
+  /* background-color: #6E6E6E; */
+}
+
+.navbar ul {
+  display: flex;
+  overflow: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 20px 20px;
+}
+
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar li a:hover {
+  background-color: #BCFD4C;
+  transition: ease-in 1s;
+  padding: 30px;
+  color: black;
+}
+
+.navbar li a span {
+  background-color: #BCFD4C;
+  padding: 30px;
+  border-radius: 5%;
+  color: black;
+}
+
+/*paragraph */
+.para {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding: 50px;
+}
+
+/*
+.para p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: white;
+  line-height: 25px;
+
+} */
+.qoute {
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25%;
+  color: white;
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom: 0;
+}
+
+footer h2 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: white;
+}
+
+.welcome {
+  /*   background-color: #6E6E6E; */
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 50px;
+
+}
+
+.welcome h1 {
+  color: #BCFD4C;
+  text-transform: none;
+  font-family: 'Staatliches', cursive;
+  margin-top: 150px;
+  font-size: 50px;
+  margin-left: 250px;
+  text-shadow: 2px 3px 1px black;
+
+}
+
+
+.fade-in h1 #left{
+  margin-left: 2000px;
+}
+
+
+/* Animation */
+.fade-in {
+	animation: fadeIn 5s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 2;
+  }
+}
